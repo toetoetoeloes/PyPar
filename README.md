@@ -2,12 +2,27 @@
 PyPar is a paragraph reformatter.
 
 # Synopsis
-pypar.py [-h] [-i INDENT] [-j] [-m MARGIN] [-w WIDTH] [FILE ...]
+    pypar.py [-h] [-i INDENT] [-j] [-m MARGIN] [-w WIDTH] [FILE ...]
 
 # Description
-Concatenate FILE(s) to standard output.
+    Reformat paragraphs in FILE(s) and send to standard output.
+    
+    With no FILE, or when FILE is -, read standard input.
 
-       With no FILE, or when FILE is -, read standard input.
+    -h, --help
+          display help and exit
+          
+    -i, --indent
+          first line paragraph indentation, default = 10
+    
+    -j, --justify
+          justify text
+          
+    -m, --margin
+          left margin of text, default = 0
+          
+    -w, --width
+          maximum number of characters on a line, default = 75
 
 # Example
 
